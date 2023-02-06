@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TrimaPlusLibrary_Example' do
+  pod 'TrimaPlusLibrary', :path => '../'
+
+  target 'TrimaPlusLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
