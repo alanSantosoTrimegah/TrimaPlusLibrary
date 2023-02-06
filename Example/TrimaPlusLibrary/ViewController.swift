@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import TrimaPlusLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let test = ReplaceMe()
+        test.printerr()
     }
 
     override func didReceiveMemoryWarning() {
